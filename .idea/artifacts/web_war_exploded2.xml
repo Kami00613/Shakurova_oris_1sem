@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web:war exploded2">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_war_exploded2</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.34" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:2.0.9" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:2.0.9" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.7.5" />
+          <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.48.3" />
+          <element id="library" level="project" name="Maven: com.cloudinary:cloudinary-core:1.38.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="web/web/Web" />
+      <element id="module-output" name="net" />
+    </root>
+  </artifact>
+</component>
